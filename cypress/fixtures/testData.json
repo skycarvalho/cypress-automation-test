@@ -1,0 +1,28 @@
+{
+  "users": {
+    "valid": {
+      "email": "teste2021@teste.com.br",
+      "password": "teste"
+    },
+    "valid_alternative": {
+      "email": "teste2024@teste.com.br",
+      "password": "teste"
+    },
+    "invalid": {
+      "email": "usuario@invalido.com",
+      "password": "senhaerrada"
+    }
+  },
+  "products": {
+    "searchTerms": ["dress", "t-shirt", "blouse", "printed dress"],
+    "categories": ["Women", "Dresses", "T-shirts"]
+  },
+  "api": {
+    "trello": {
+      "baseUrl": "https://api.trello.com/1",
+      "endpoints": {
+        "action": "/actions/592f11060f95a3d3d46a987a"
+      }
+    }
+  }
+}
